@@ -1,0 +1,32 @@
+body{
+    background-image: url(dhh.png);
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    width: 80%;
+   background:rgba(224, 255, 255, 0.459) ;
+   border-radius: 20px;
+   align-items: center;
+}
+header{
+    width: 80%;
+    
+    align-items: center;
+
+
+}
+h2{
+    width: 80% 80%;
+}
+.visible{
+    display: initial;
+    }
+    
+.invisible{
+      display:none;
+    }
