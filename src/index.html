@@ -7,64 +7,52 @@
   </head>
   <body>
     <header>
-      <h1>Es hora de ayudar</h1>
-      <br>
-      <br>
-      <h2>Ayudar a quien mas lo necesita  nunca fue tan fácil.
-         <br>
-         Con tu apoyo seguiremos creciendo y ayudando a mas mascotas sin hogar ¡sé parte del cambio!</h2>
-      <br>
-      <br>
-        <img src="imgmask.gif" width="300" alt="300">
-        <br>
-        <br>
+      <nav class="menu">
+        <ul>
+          <li><a href="#">  Inicio</a></li>
+          <li><a href="#">¿Quienes Somos?</a></li>
+          <li><a href="#">Contactanos</a></li>
+        </ul>
+      </nav>
        </header>
      <main>
-       <div id="screen1">
-       <p>Somos una asociación sin fines de lucro que busca construir <br>un mundo mejor para los perros a través de iniciativas sostenibles.</p>
-       <h3>¿Como puedes ayudar?</h3>
-       <p1>Hay millones formas de que nos puedas apoyar en esta labor tan linda<br>*Adoptando<br>*Apadrinando animales en estado de abandono<br> *Realizando una linda Donación</p1>
-       <br>
-       <br>
-       <button  value="donation" id="donacion">Donacion</button>
+       <div class="container>">
+      <div id="pantalla1">
+        <h1>Es hora de ayudar</h1>
+      <h2>Ayudar a quien mas lo necesita  nunca fue tan fácil. <br>Con tu apoyo seguiremos creciendo y ayudando a mas mascotas sin hogar ¡sé parte del cambio! </p2>
+      <br>
+      <br>
+      <br>
+      <br><img src="imgmask.gif" width="300" alt="300">
+       <section>
+       <h3>Somos una asociación sin fines de lucro que busca construir <br>un mundo mejor para los perros a través de iniciativas sostenibles.</h3>
+       <p2>¿Como puedes ayudar?  <br>Existen millones de formas  para apoyarnos en esta labor tan linda<br>*Adoptando<br>*Apadrinando animales en estado de abandono<br> *Realizando una linda Donación</p2>
+      <br>
+      <button name="donacion" id="donacion" value="donacion"> Donacion</button>
+       </section>
+
+       <br><br><br><br><br>
       </div>
-      <div id="Screen2" class="invisible">
-        <div class ="cuerpo">
-          <form action="" id="formulario-tarjeta" class="formulario-tarjeta"> 
-            <img src="tdeb.png" width="400" alt="400" border-radius="20px">
-            <div class="grupoFormulario">
-              <label for="inputNombre" required> Nombre en la Tarjeta</label>
-              <input type="text" id="inputNombre" maxlength="40" >
-            </div>
+       <div id="pantalla2">
+       <img src="tdeb.png" width="400" alt="400" border-radius="20px">
             <br>
-            <br>
-            <div class="grupoFormulario">
-              <label for="inputNumero"> Número de tarjeta</label>
-              <input type="text" id="inputNumero" maxlength="16" >
-            </div>
-            whi
-            <div>
-              <label for="start">Fecha de vencimiento:</label>
-              <input type="date" id="start" name="trip-start"
-                     value=""
-                     min="2022-02-2022" max="2040-12-31">
-                    </div>
-                     <div>
-                      <div class="grupoFormulario">
-                        <label for="Cvv"> Cvv</label>
-                        <input type="text" id="Cvv" maxlength="3">
-                      </div>
-                      <input type="button" id="check" value="verificar">
-                      <br>
-                      <br>
-                      <input type="button" id="inicio" value="inicio" name="inicio">
-      </div>
+      <form id="form1" class="form">
+            <label for="creditCardNumber" >Ingrese Numero de tarjeta
+              <input type="text" class="form_input" id="creditCardNumber" maxlength="16" autocomplete="off" placeholder="0000 0000 0000 0000" required>
+                      <input type="button" id="check" value="check">
+                    </label>
+                    <br>
+                    <br>
+                    <input type="button" id="inicio" value="inicio" name="inicio">
+
+      </form>
+    </div>
   </main>
   <script src="index.js" type="module"></script>
   </body>
 
   <br>
   <br>
-  <footer> ° Copyrigh | 2022 Patitas por amor</footer>
+  <footer> ° Copyrigh | Gabriela Tornel LIM017 2022|| Patitas por amor</footer>
 
 </html>

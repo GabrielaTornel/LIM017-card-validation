@@ -1,6 +1,5 @@
 body{
     background-image: url(dhh.png);
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -8,21 +7,37 @@ body{
 }
 
 main{
-    width: 80%;
+    width: 60%;
    background:rgba(224, 255, 255, 0.459) ;
    border-radius: 20px;
    align-items: center;
 }
-header{
-    width: 80%;
-    
-    align-items: center;
-
-
+nav {
+    border-bottom: 5px solid rgb(13, 185, 216);
+    width: 800px;
+    background:rgba(174, 12, 189, 0.377) ;
+    border-radius: 20px;
+    align-items:flex-start
 }
+//*.visible{
+    display: block;
+    }
+    
+.invisible{
+      display:none;
+    }
+
+/*header{
+    width: 80%;
+    align-items: center;
+}
+
+
+/*
 h2{
     width: 80% 80%;
-}
+}/*
+
 .visible{
     display: initial;
     }
