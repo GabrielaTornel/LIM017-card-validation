@@ -9,9 +9,9 @@
     <header>
       <nav class="menu">
         <ul>
-          <li><a href="#">  Inicio</a></li>
-          <li><a href="#">¿Quienes Somos?</a></li>
-          <li><a href="#">Contactanos</a></li>
+          <li><a href="#somos">¿Quienes Somos?</a></li>
+          <br> <br>
+          <li><a href="#cntactanos">Contactanos</a></li>
         </ul>
       </nav>
        </header>
@@ -28,7 +28,6 @@
        <h3>Somos una asociación sin fines de lucro que busca construir <br>un mundo mejor para los perros a través de iniciativas sostenibles.</h3>
        <p2>¿Como puedes ayudar?  <br>Existen millones de formas  para apoyarnos en esta labor tan linda<br>*Adoptando<br>*Apadrinando animales en estado de abandono<br> *Realizando una linda Donación</p2>
       <br>
-      <button name="donacion" id="donacion" value="donacion"> Donacion</button>
        </section>
 
        <br><br><br><br><br>
@@ -39,11 +38,13 @@
       <form id="form1" class="form">
             <label for="creditCardNumber" >Ingrese Numero de tarjeta
               <input type="text" class="form_input" id="creditCardNumber" maxlength="16" autocomplete="off" placeholder="0000 0000 0000 0000" required>
-                      <input type="button" id="check" value="check">
+              <p id="mensaje" class="mensaje" ></p>
+              <section id=button class="button">
+                <button name="donacion" id="donacion" value="donacion"> Donacion</button></section>
                     </label>
+                    <p id="mensaje"></p>
                     <br>
                     <br>
-                    <input type="button" id="inicio" value="inicio" name="inicio">
 
       </form>
     </div>

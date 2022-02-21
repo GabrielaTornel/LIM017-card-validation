@@ -17,9 +17,30 @@ nav {
     width: 800px;
     background:rgba(174, 12, 189, 0.377) ;
     border-radius: 20px;
-    align-items:flex-start
+    align-items:flex-start;  
 }
-//*.visible{
+.mensaje{
+    color: rgb(0, 0, 0) ;
+    background-color: rgba(247, 1, 1, 0.678);
+    width: 70%;
+
+
+
+
+}
+
+/*.button{
+border-radius: 4px;
+background-color: #7615d19d;
+text-align: center;
+font-size: 50px;
+padding: 20px;
+width: 50%;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+/*.visible{
     display: block;
     }
     

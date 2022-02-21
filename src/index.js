@@ -2,23 +2,27 @@ import validator from "./validator.js";
 //click para cambiar de pagina
 
 //Funciene el boton de validacion 
-const checkCreditNumber = document.getElementById("check");
-checkCreditNumber.addEventListener("click", validarCard);
-console.log(checkCreditNumber);
-
-function validarCard(){
+let btnCheck = document.getElementById("donacion");
+btnCheck.addEventListener("click", e=> {
+e.preventDefault()
 let creditCardNumber = document.getElementById("creditCardNumber").value;
 if (creditCardNumber == ""){
-    alert("ingresa numero de tarjeta");
+    document.getElementById("mensaje").innerHTML = "Campo vacio";
 }
 else {
-    //alert ("tarjeta invalida");
+    document.getElementById("mensaje").innerHTML = "Tarjeta inválida, intente nuevamente";
     validator.isValid(creditCardNumber)
-}
-}
-console.log(validarCard);
-console.log(validator);
-console.log(validator.isValid);
+} 
+})
+
+
+
+/*let infSomos= querySelector("#somos");
+infSomos.addEventListener("click",  );
+function 
+console.log();
+
+
 /* console.log("click donacion");
 let donacion = document.getElementById("donacion");
 donacion.addEventListener("click", clickDonacion);
