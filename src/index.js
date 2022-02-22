@@ -13,6 +13,7 @@ else {
     document.getElementById("mensaje").innerHTML = "Tarjeta inválida, intente nuevamente";
     validator.isValid(creditCardNumber)
 } 
+
 })
 
 
