@@ -6,15 +6,25 @@ let btnCheck = document.getElementById("donacion");
 btnCheck.addEventListener("click", e=> {
 e.preventDefault()
 let creditCardNumber = document.getElementById("creditCardNumber").value;
-if (creditCardNumber == ""){
-    document.getElementById("mensaje").innerHTML = "Campo vacio";
-}
-else {
-    document.getElementById("mensaje").innerHTML = "Tarjeta inválida, intente nuevamente";
-    validator.isValid(creditCardNumber)
-} 
+let maskiCard= validator.maskify(creditCardNumber);
+let tarjetaValida= validator.isValid(creditCardNumber);
+let mensajePantalla =document.getElementById("mensajeError")
 
-})
+if (creditCardNumber == ""){
+    document.getElementById("mensajeError").innerHTML = "⚠️ Campo 'Ingrese Numero de tarjeta' vacio";
+}else if (tarjetaValida === true){
+    document.getElementById("mensajeCorrect").innerHTML = " ✅Tarjeta válida, gracias por su donación";
+    document.getElementById("creditCardNumber").value= maskiCard;
+    document.getElementById("imgG").className = "visible";
+    console.log(mensajePantalla)
+
+   
+} else{
+    document.getElementById("mensajeError").innerHTML = "❌ Tarjeta invalida";
+    console.log(mensajePantalla)
+
+}
+} )
 
 
 

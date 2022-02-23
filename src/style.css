@@ -4,7 +4,10 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
 }
+
 
 main{
     width: 60%;
@@ -17,18 +20,55 @@ nav {
     width: 800px;
     background:rgba(174, 12, 189, 0.377) ;
     border-radius: 20px;
-    align-items:flex-start;  
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center; /* texto centrado */
+    color: rgb(208, 7, 226) ;
 }
-.mensaje{
+.text1{
+    font-size: 25px;
+
+}
+.mensajeError{
+    color: rgb(226, 1, 1) ;
+    /*background-color: rgb(255, 0, 0);*/
+    width: 100%;
+    font-size: 30px;
+    border-radius: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center; /* texto centrado */
+ 
+}
+.formCard{
+    font-size: 20px;
+    border-radius: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center; /* texto centrado */
+    color: rgb(255, 255, 255) ;
+    background-color: rgba(117, 40, 148, 0.76);
+}
+
+.mensajeCorrect{
     color: rgb(0, 0, 0) ;
-    background-color: rgba(247, 1, 1, 0.678);
-    width: 70%;
-
-
-
-
+    background-color: rgb(0, 255, 98);
+    width: 100%;
+    font-size: 30px;
+    border-radius: 20px;
+    border: violet;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center; /* texto centrado */
 }
-
+/*.btnDonacion{
+    
+}*/
+.visible{
+    display:initial;
+    }
+    
+    .invisible{
+      display: none;
+    }
+    
 /*.button{
 border-radius: 4px;
 background-color: #7615d19d;

@@ -50,7 +50,7 @@ if (sumTotal % 10 === 0){
   return false
 }
   },
- /* const maskify = (creditCardNumber) => {
+  maskify:function (creditCardNumber){
     //ocultar los digitos menos los 4 ultimos
     if(creditCardNumber.length > 4) {
         let creditCardNumberArray = creditCardNumber.split('');
@@ -65,11 +65,11 @@ if (sumTotal % 10 === 0){
         }
   
         return newNumber;
-        console.log
       } else {
           return creditCardNumber;
       }
-}*/
+      
+}
 }
 
 export default validator;

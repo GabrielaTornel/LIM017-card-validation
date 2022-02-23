@@ -11,7 +11,7 @@
         <ul>
           <li><a href="#somos">¿Quienes Somos?</a></li>
           <br> <br>
-          <li><a href="#cntactanos">Contactanos</a></li>
+          <li><a href="#cntactanos">Contáctanos</a></li>
         </ul>
       </nav>
        </header>
@@ -19,12 +19,12 @@
        <div class="container>">
       <div id="pantalla1">
         <h1>Es hora de ayudar</h1>
-      <h2>Ayudar a quien mas lo necesita  nunca fue tan fácil. <br>Con tu apoyo seguiremos creciendo y ayudando a mas mascotas sin hogar ¡sé parte del cambio! </h2>
+      <h2>Ayudar a quien mas lo necesita  nunca fue tan fácil. <br>Con tu apoyo seguiremos creciendo <br>y ayudando a mas mascotas sin hogar ¡sé parte del cambio! </h2>
       <br>
       <br>
       <br>
       <br><img src="imgmask.gif" width="300" alt="300">
-       <section>
+       <section class="text1">
        <h3>Somos una asociación sin fines de lucro que busca construir <br>un mundo mejor para los perros a través de iniciativas sostenibles.</h3>
        <p2>¿Como puedes ayudar?  <br>Existen millones de formas  para apoyarnos en esta labor tan linda<br>*Adoptando<br>*Apadrinando animales en estado de abandono<br> *Realizando una linda Donación</p2>
       <br>
@@ -37,12 +37,14 @@
             <br>
       <form id="form1" class="form">
             <label for="creditCardNumber" >Ingrese Numero de tarjeta
-              <input type="text" class="form_input" id="creditCardNumber" maxlength="16" autocomplete="off" placeholder="0000 0000 0000 0000" required>
-              <p id="mensaje" class="mensaje" ></p>
-              <section id=button class="button">
-                <button name="donacion" id="donacion" value="donacion"> Donacion</button></section>
+              <input type="text" class="formCard" id="creditCardNumber" maxlength="16" autocomplete="off" placeholder="0000 0000 0000 0000" required>
+              <p id="mensajeCorrect" class="mensajeCorrect" ></p>
+              <p id="mensajeError" class="mensajeError" ></p>
+              <img class=invisible id=imgG src="gracias.jpg" width="300" alt="300">
+              <section id=button class="btnDonacion">
+                <button name="donacion" id="donacion"value="donacion"> Donacion</button></section>
                     </label>
-                    <p id="mensaje"></p>
+                    
                     <br>
                     <br>
 
