@@ -52,15 +52,15 @@ if (sumTotal % 10 === 0){
   },
   maskify:function (creditCardNumber){
     //ocultar los digitos menos los 4 ultimos
-    if(creditCardNumber.length > 4) {
-        let creditCardNumberArray = creditCardNumber.split('');
-        let newNumber = '';
+    if(creditCardNumber.length >4) {
+        let creditCardNumberArray = creditCardNumber.split("");
+        let newNumber = "";
   
-        for (let i = 0;i <creditCardNumberArray.length; i++) {  // Se le va sumar 1 al i ==> ++ se significa aumentarle 1 más
+        for (let i=0 ;i <creditCardNumberArray.length; i++) {  // Se le va sumar 1 al i ==> ++ se significa aumentarle 1 más
             if (i < (creditCardNumberArray.length - 4)) {
-                newNumber+= '#';
+                newNumber= newNumber + "#";
             } else {
-              newNumber += creditCardNumberArray[i];// Si no cumple con la condicional entonces ocultar con #
+              newNumber= newNumber+ creditCardNumberArray[i];// Si no cumple con la condicional entonces ocultar con #
             }
         }
   

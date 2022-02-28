@@ -1,14 +1,57 @@
 body{
-    background-image: url(dhh.png);
+    background-image: url(img/dhh.png);
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
     text-align: center; 
 }
+.titulo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(109, 0, 136);
+    text-shadow: 7px 4px 5px rgb(62, 76, 78);
 
-
+    
+}
+.bttn1{
+      background-color: #774caf;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+.bttn2{
+    background-color: #1fd471;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+}
+.bttn3{
+    background-color: #774caf;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+}
 main{
     width: 60%;
    background:rgba(224, 255, 255, 0.459) ;
@@ -22,87 +65,35 @@ nav {
     border-radius: 20px;
     font-size: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: center; /* texto centrado */
+    text-align: center;
     color: rgb(208, 7, 226) ;
 }
 .text1{
     font-size: 25px;
 
 }
-.mensajeError{
-    color: rgb(226, 1, 1) ;
+.message{
+    color: rgb(0, 0, 0) ;
     /*background-color: rgb(255, 0, 0);*/
     width: 100%;
     font-size: 30px;
     border-radius: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center; /* texto centrado */
- 
 }
-.formCard{
-    font-size: 20px;
-    border-radius: 20px;
+.form1{
+    justify-content: space-around; 
+}
+.parrafo{
+    flex-direction: column;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: center; /* texto centrado */
-    color: rgb(255, 255, 255) ;
-    background-color: rgba(117, 40, 148, 0.76);
+    color:black;
+    text-align: center;
 }
-
-.mensajeCorrect{
-    color: rgb(0, 0, 0) ;
-    background-color: rgb(0, 255, 98);
-    width: 100%;
-    font-size: 30px;
-    border-radius: 20px;
-    border: violet;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: center; /* texto centrado */
-}
-/*.btnDonacion{
-    
-}*/
 .visible{
     display:initial;
     }
-    
     .invisible{
       display: none;
     }
     
-/*.button{
-border-radius: 4px;
-background-color: #7615d19d;
-text-align: center;
-font-size: 50px;
-padding: 20px;
-width: 50%;
-transition: all 0.5s;
-cursor: pointer;
-margin: 5px;
-}
-/*.visible{
-    display: block;
-    }
-    
-.invisible{
-      display:none;
-    }
-
-/*header{
-    width: 80%;
-    align-items: center;
-}
-
-
-/*
-h2{
-    width: 80% 80%;
-}/*
-
-.visible{
-    display: initial;
-    }
-    
-.invisible{
-      display:none;
-    }
