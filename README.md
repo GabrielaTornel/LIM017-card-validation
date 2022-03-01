@@ -1,7 +1,8 @@
 # TARJETA DE CRÉDITO VÁLIDA : DEJANDO HUELLAS
 ## Resumen del proyecto.
 Dejando huellas es una asociación sin fines de lucro , Hemos creado una  pagina web diseñada para poder realizar donaciones a la anterior mencionada, de esta manera la pagina accede a un campo donde al ingresar la tarjeta permite al usuario corroborar si su tarjeta es valida o no. Además, tiene la funcionalidad que al ingresar la tarjeta sus numero se oculten y sean intercambiados por "#" y solo podamos ver los ultimos 4 dijitos de la tarjeta.
- ![Dejando Huellas Inicio](https://github.com/GabrielaTornel/LIM017-card-validation/blob/main/src/img/segundaPW.png)
+![Dejando Huellas Inicio](https://github.com/GabrielaTornel/LIM017-card-validation/blob/main/src/img/InicioPW.png)
+![Dejando Huellas Inicio](https://github.com/GabrielaTornel/LIM017-card-validation/blob/main/src/img/segundaPW.png)
 
 ##  Usuarios y objetivos del proyecto.
 Esta pagina está diseñada, para los usuarios que deseen realizar donacion a La asociación Dejando Huellas, puedan tener mas informacion de la misma que les brinde seguridad y asi  puedan ingresar sus datos fácilmente.
@@ -11,10 +12,16 @@ El objetivo de esta web es que el usuario final , no pueda dejar  un campo vacio
 * Creamos una pagina inicial con información de la asociacion para que esta le transmita confianza y sostenibilidad al usuario.
 * Creamos un diseño de una tarjeta de crédito Simple pára que puedan ingresar todo tipo de usuario y donde se sentirá cómodo.
 * Le creamos una funcionalidad que al ingresar la tarjeta sus numero se oculten y sean intercambiados por "#" y solo podamos ver los ultimos 4 dijitos de la tarjeta resguardando asi parte de sus datos ingresados.
-# Prototipo En Papel
+##  Prototipo En Papel
+![Dejando Huellas Inicio](https://github.com/GabrielaTornel/LIM017-card-validation/blob/main/src/img/papel%201.jpeg)
+![Dejando Huellas Inicio](https://github.com/GabrielaTornel/LIM017-card-validation/blob/main/src/img/papel%202.jpeg)
 ## Feedback e indicaciones de mejora
+* Agregar un boton de inicio en segunda pagina para que el usuario pudiera regresar.
+* Agregar informacion de que era hora de pagar antes de mostrar la tarjeta.
+
 ## Prototipo final
-![Prototipo de proyecto](https://www.canva.com/design/DAE5qtGXI88/blI2BQooqTY2rmeBrhgD1Q/view)
+![Dejando Huellas Inicio](https://github.com/GabrielaTornel/LIM017-card-validation/blob/main/src/img/prototipe1.png)
+![Dejando Huellas Inicio](https://github.com/GabrielaTornel/LIM017-card-validation/blob/main/src/img/prototipe2.png)
 
 <!-- -<!-- Índice
 
