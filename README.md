@@ -1,5 +1,5 @@
 # TARJETA DE CRÉDITO VÁLIDA : DEJANDO HUELLAS
-![Dejando Huellas Inicio](src\img\InicioPW.png)
+![Dejando Huellas Inicio](\src\img\segundaPW.png)
 
 # Resumen del proyecto
 Dejando huellas es una asociación sin fines de lucro , Hemos creado una  pagina web diseñada para poder realizar donaciones a la anterior mencionada, de esta manera la pagina permite acceder a un campo de validacion de tarjeta para poder realizar donaciones. Esta pagina web 
