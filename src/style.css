@@ -72,6 +72,15 @@ nav {
     font-size: 25px;
 
 }
+.messageName{
+    color: rgb(0, 0, 0) ;
+    /*background-color: rgb(255, 0, 0);*/
+    width: 100%;
+    font-size: 30px;
+    border-radius: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center; /* texto centrado */
+}
 .message{
     color: rgb(0, 0, 0) ;
     /*background-color: rgb(255, 0, 0);*/

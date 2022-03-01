@@ -20,6 +20,7 @@ e.preventDefault()
 let creditCardNumber = document.getElementById("creditCardNumber").value;
 let maskiCard= validator.maskify(creditCardNumber);
 let tarjetaValida= validator.isValid(creditCardNumber);
+let nameDatos= document.getElementById("nameDatos").value;
 //let mensajePantalla =document.getElementById("mensajeError")
 
 if (creditCardNumber === ""){
@@ -30,5 +31,11 @@ if (creditCardNumber === ""){
     }  else{
     document.getElementById("message").innerText = "❌ Tarjeta " + maskiCard + " inválida";
     
+}
+
+if (nameDatos === ""){
+document.getElementById("messageName").innerText= "⚠️ Campo 'Ingrese nombre' vacio";
+}else {
+    document.getElementById("messageName").innerText= "";
 }
 })
