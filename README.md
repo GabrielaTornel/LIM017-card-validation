@@ -1,6 +1,33 @@
-# Tarjeta de crédito válida
+# TARJETA DE CRÉDITO VÁLIDA : DEJANDO HUELLAS
+![Dejando Huellas Inicio](src\img\InicioPW.png)
 
-## Índice
+# Resumen del proyecto
+Dejando huellas es una asociación sin fines de lucro , Hemos creado una  pagina web diseñada para poder realizar donaciones a la anterior mencionada, de esta manera la pagina permite acceder a un campo de validacion de tarjeta para poder realizar donaciones. Esta pagina web 
+ permite al usuario validar el número de una tarjeta de crédito. Además, tiene la funcionalidad que al ingresar la tarjeta sus numero se oculten y sean intercambiados por "#" y solo podamos ver los ultimos 4 dijitos de la tarjeta.
+
+![Prototipo de proyecto](https://www.canva.com/design/DAE5qtGXI88/blI2BQooqTY2rmeBrhgD1Q/view)
+
+
+Debe contener lo siguiente:
+
+* Un título con el nombre de tu proyecto.
+* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+* La imagen final de tu proyecto.
+* Investigación UX:
+  1. Explicar quiénes son los usuarios y los objetivos en relación con el
+    producto.
+  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
+    usuarios.
+  3. Luego colocarás la foto de tu primer prototipo en papel.
+  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  5. Imagen del prototipo final.
+  [![Prototipo final ](https://www.canva.com/design/DAE5qtGXI88/blI2BQooqTY2rmeBrhgD1Q/view#1)]
+Para llegar a una validacion de tarjeta es esencial saber soble el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
+también llamado algoritmo de módulo 10, es un método de suma de verificación,
+se utiliza para validar números de identificación; tales como el IMEI de los
+celulares, tarjetas de crédito, etc.
+Para este proyecto hemos implementado Tanto dicho algoritmo 
+<!-- -<!-- Índice
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
@@ -14,7 +41,7 @@
 
 ***
 
-## 1. Preámbulo
+*Preámbulo
 
 El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
 también llamado algoritmo de módulo 10, es un método de suma de verificación,
@@ -29,7 +56,7 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
-## 2. Resumen del proyecto
+*2. Resumen del proyecto
 
 En este proyecto tendrás que construir una aplicación web que le permita a un
 usuario validar el número de una tarjeta de crédito. Además, tendrás que
@@ -45,11 +72,11 @@ Trabajando en parejas aprenderán a construir una aplicación web que interactua
 con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
 como tecnologías.
 
-## 3. Objetivos de aprendizaje
+*3. Objetivos de aprendizaje
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
-### HTML
+** HTML
 
 - [ ] **Uso de HTML semántico**
 
@@ -59,7 +86,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Semantics - MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
 </p></details>
 
-### CSS
+**CSS
 
 - [ ] **Uso de selectores de CSS**
 
@@ -80,7 +107,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
 </p></details>
 
-### Web APIs
+*Web APIs
 
 - [ ] **Uso de selectores del DOM**
 
@@ -542,4 +569,5 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 ### Parte Opcional: "Hacker edition"
 
 * [ ] Implementa `validator.getIssuer`.
-* [ ] Interfaz muestra la franquicia de la tarjeta
+* [ ] Interfaz muestra la franquicia de la tarjeta -->
+ 
