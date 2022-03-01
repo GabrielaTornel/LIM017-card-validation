@@ -1,32 +1,21 @@
 # TARJETA DE CRÉDITO VÁLIDA : DEJANDO HUELLAS
-![Dejando Huellas Inicio](\src\img\segundaPW.png)
+## Resumen del proyecto.
+Dejando huellas es una asociación sin fines de lucro , Hemos creado una  pagina web diseñada para poder realizar donaciones a la anterior mencionada, de esta manera la pagina accede a un campo donde al ingresar la tarjeta permite al usuario corroborar si su tarjeta es valida o no. Además, tiene la funcionalidad que al ingresar la tarjeta sus numero se oculten y sean intercambiados por "#" y solo podamos ver los ultimos 4 dijitos de la tarjeta.
+ ![Dejando Huellas Inicio](src\img\InicioPW.png)
 
-# Resumen del proyecto
-Dejando huellas es una asociación sin fines de lucro , Hemos creado una  pagina web diseñada para poder realizar donaciones a la anterior mencionada, de esta manera la pagina permite acceder a un campo de validacion de tarjeta para poder realizar donaciones. Esta pagina web 
- permite al usuario validar el número de una tarjeta de crédito. Además, tiene la funcionalidad que al ingresar la tarjeta sus numero se oculten y sean intercambiados por "#" y solo podamos ver los ultimos 4 dijitos de la tarjeta.
+##  Usuarios y objetivos del proyecto.
+Esta pagina está diseñada, para los usuarios que deseen realizar donacion a La asociación Dejando Huellas, puedan tener mas informacion de la misma que les brinde seguridad y asi  puedan ingresar sus datos fácilmente.
 
+El objetivo de esta web es que el usuario final , no pueda dejar  un campo vacio, y tambien pueda identificar que el número de tarjeta de credito ingresado  sea un número válido o no, y si es valido poder realizar una donacion.
+# Soluciones en problemas de las necesidades del usuario.
+* Creamos una pagina inicial con información de la asociacion para que esta le transmita confianza y sostenibilidad al usuario.
+* Creamos un diseño de una tarjeta de crédito Simple pára que puedan ingresar todo tipo de usuario y donde se sentirá cómodo.
+* Le creamos una funcionalidad que al ingresar la tarjeta sus numero se oculten y sean intercambiados por "#" y solo podamos ver los ultimos 4 dijitos de la tarjeta resguardando asi parte de sus datos ingresados.
+# Prototipo En Papel
+## Feedback e indicaciones de mejora
+## Prototipo final
 ![Prototipo de proyecto](https://www.canva.com/design/DAE5qtGXI88/blI2BQooqTY2rmeBrhgD1Q/view)
 
-
-Debe contener lo siguiente:
-
-* Un título con el nombre de tu proyecto.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-* La imagen final de tu proyecto.
-* Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  5. Imagen del prototipo final.
-  [![Prototipo final ](https://www.canva.com/design/DAE5qtGXI88/blI2BQooqTY2rmeBrhgD1Q/view#1)]
-Para llegar a una validacion de tarjeta es esencial saber soble el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
-también llamado algoritmo de módulo 10, es un método de suma de verificación,
-se utiliza para validar números de identificación; tales como el IMEI de los
-celulares, tarjetas de crédito, etc.
-Para este proyecto hemos implementado Tanto dicho algoritmo 
 <!-- -<!-- Índice
 
 * [1. Preámbulo](#1-preámbulo)
