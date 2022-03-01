@@ -6,12 +6,12 @@ const validator = {
     let numberArray= Array.from(creditCardNumber);
     console.log(numberArray)
     //reversa de mi array
-    const reverse= numberArray.reverse();
-    console.log(reverse)
+    const reverseArray= numberArray.reverse();
+    console.log(reverseArray)
     //string a numeros
     let cadenaDos= [];
     for(let i=0; i<numberArray.length; i++){
-      cadenaDos.push(parseInt(numberArray [i]));
+      cadenaDos.push(parseInt(reverseArray [i]));
       console.log(cadenaDos)
     }
     // identificar numeros pares e impares en la array
@@ -22,7 +22,7 @@ const validator = {
    console.log(typeof cadenaDos[i])
    if (i % 2 !==0){
     
-     //multiplicar los indicices pares de js y sumar los dijistos
+     //multiplicar los indicices pares de js y sumar los dijitos
      let posicionPar =cadenaDos[i]*2;
      console.log(posicionPar);
      if(posicionPar > 9){
