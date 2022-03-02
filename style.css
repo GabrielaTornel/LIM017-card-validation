@@ -1,0 +1,108 @@
+body{
+    background-image: url(img/dhh.png);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    text-align: center; 
+}
+.titulo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(109, 0, 136);
+    text-shadow: 7px 4px 5px rgb(62, 76, 78);
+
+    
+}
+.bttn1{
+      background-color: #774caf;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+.bttn2{
+    background-color: #1fd471;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+}
+.bttn3{
+    background-color: #774caf;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+}
+main{
+    width: 60%;
+   background:rgba(224, 255, 255, 0.459) ;
+   border-radius: 20px;
+   align-items: center;
+}
+nav {
+    border-bottom: 5px solid rgb(13, 185, 216);
+    width: 800px;
+    background:rgba(174, 12, 189, 0.377) ;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(208, 7, 226) ;
+}
+.text1{
+    font-size: 25px;
+
+}
+.messageName{
+    color: rgb(0, 0, 0) ;
+    /*background-color: rgb(255, 0, 0);*/
+    width: 100%;
+    font-size: 30px;
+    border-radius: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center; /* texto centrado */
+}
+.message{
+    color: rgb(0, 0, 0) ;
+    /*background-color: rgb(255, 0, 0);*/
+    width: 100%;
+    font-size: 30px;
+    border-radius: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center; /* texto centrado */
+}
+.form1{
+    justify-content: space-around; 
+}
+.parrafo{
+    flex-direction: column;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    text-align: center;
+}
+.visible{
+    display:initial;
+    }
+    .invisible{
+      display: none;
+    }
+    
