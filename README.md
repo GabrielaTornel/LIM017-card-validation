@@ -1,4 +1,5 @@
 # TARJETA DE CRÉDITO VÁLIDA : DEJANDO HUELLAS
+https://gabrielatornel.github.io/LIM017-card-validation/
 ## Resumen del proyecto.
 Dejando huellas es una asociación sin fines de lucro , Hemos creado una  pagina web diseñada para poder realizar donaciones a la anterior mencionada, de esta manera la pagina accede a un campo donde al ingresar la tarjeta permite al usuario corroborar si su tarjeta es valida o no. Además, tiene la funcionalidad que al ingresar la tarjeta sus numero se oculten y sean intercambiados por "#" y solo podamos ver los ultimos 4 dijitos de la tarjeta.
 ![Dejando Huellas Inicio](https://github.com/GabrielaTornel/LIM017-card-validation/blob/main/src/img/InicioPW.png)
